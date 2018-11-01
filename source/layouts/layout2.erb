@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Use the title from a page's frontmatter if it has one -->
+    <title><%= current_page.data.title || "Light&Dark Studio" %></title>
+    <%= stylesheet_link_tag "layout2" %>
+    <%= stylesheet_link_tag "bootstrap" %>
+    <%= stylesheet_link_tag "bootstrap-theme" %>
+    <%= javascript_include_tag "jquery.min" %>
+    <%= javascript_include_tag "bootstrap" %>
+    <%= javascript_include_tag "site" %>
+    <link rel="shortcut icon" type="image/png" href="../images/favicon.png"/>
+  </head>
+
+  <body>
+   <div class="menu-container">
+    <div class="row">
+       <a class="menu-elements" href="../views/works.html"> B A C K </a>
+    </div>
+   </div>
+    <%= yield %>
+  </body>
+</html>

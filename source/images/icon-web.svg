@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="250px" height="250px" viewBox="0 0 250 250" enable-background="new 0 0 250 250" xml:space="preserve">
+<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="3" x1="162.563" y1="178.97" x2="162.563" y2="242.957"/>
+<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="3" x1="162.563" y1="7.48" x2="162.563" y2="122.374"/>
+<polyline fill="none" stroke="#000000" stroke-width="5" stroke-linejoin="round" stroke-miterlimit="10" points="142.313,168.921 
+	57.208,168.921 57.208,81.517 162.563,81.517 162.563,122.374 "/>
+<polyline fill="none" stroke="#000000" stroke-width="5" stroke-linejoin="round" stroke-miterlimit="10" points="174.355,178.97 
+	142.313,178.97 142.313,122.352 182.814,122.352 182.814,149.174 "/>
+<rect x="174.355" y="149.174" fill="none" stroke="#000000" stroke-width="5" stroke-linejoin="round" stroke-miterlimit="10" width="16.917" height="29.796"/>
+<line fill="none" stroke="#000000" stroke-width="7" stroke-miterlimit="10" x1="109.886" y1="168.921" x2="109.886" y2="178.97"/>
+<line fill="none" stroke="#000000" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="131.803" y1="178.97" x2="87.969" y2="178.97"/>
+<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="3" x1="242.729" y1="81.517" x2="7.252" y2="81.517"/>
+<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="3" x1="242.729" y1="178.97" x2="7.252" y2="178.97"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="148.708" y1="89.719" x2="157.657" y2="89.719"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="128.708" y1="89.719" x2="137.657" y2="89.719"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="108.708" y1="89.719" x2="117.657" y2="89.719"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="65.626" y1="137.469" x2="102.99" y2="137.469"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="65.626" y1="147.469" x2="102.99" y2="147.469"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="65.626" y1="157.469" x2="102.99" y2="157.469"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="115.657" y1="137.469" x2="142.313" y2="137.469"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="115.657" y1="147.469" x2="142.313" y2="147.469"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="115.657" y1="157.469" x2="142.313" y2="157.469"/>
+<g>
+	<path d="M65.122,92.475h-2.4v-5.195h2.342c1.031,0,1.665,0.527,1.665,1.344v0.015c0,0.587-0.303,0.913-0.663,1.12
+		c0.583,0.231,0.944,0.58,0.944,1.277v0.015C67.01,92,66.261,92.475,65.122,92.475z M65.626,88.816c0-0.342-0.26-0.535-0.728-0.535
+		h-1.096v1.099h1.023c0.49,0,0.8-0.163,0.8-0.549V88.816z M65.908,90.895c0-0.35-0.252-0.564-0.822-0.564h-1.283v1.144h1.319
+		c0.491,0,0.786-0.179,0.786-0.564V90.895z"/>
+	<path d="M71.348,92.475l-1.081-1.662h-0.873v1.662h-1.11v-5.195h2.307c1.189,0,1.903,0.646,1.903,1.715v0.015
+		c0,0.839-0.44,1.366-1.082,1.611l1.233,1.854H71.348z M71.37,89.054c0-0.49-0.332-0.743-0.872-0.743h-1.103v1.492h1.125
+		c0.541,0,0.851-0.297,0.851-0.734V89.054z"/>
+	<path d="M77.61,92.475l-0.461-1.164h-2.134l-0.461,1.164h-1.131l2.162-5.232h1.023l2.162,5.232H77.61z M76.082,88.616l-0.67,1.685
+		h1.34L76.082,88.616z"/>
+	<path d="M83.447,92.475l-2.443-3.302v3.302h-1.095v-5.195h1.023l2.364,3.199v-3.199h1.096v5.195H83.447z"/>
+	<path d="M87.929,92.475h-1.968v-5.195h1.968c1.585,0,2.681,1.121,2.681,2.584v0.015C90.61,91.34,89.514,92.475,87.929,92.475z
+		 M89.449,89.878c0-0.921-0.612-1.567-1.521-1.567h-0.857v3.133h0.857c0.908,0,1.521-0.631,1.521-1.551V89.878z"/>
+</g>
+<polyline fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="154.563,122.375 154.563,105.219 
+	114.657,105.219 114.657,126.545 142.313,126.545 "/>
+<polygon fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="104.914,122.375 104.914,105.219 
+	65.008,105.219 65.008,126.545 86.918,126.545 104.914,126.545 "/>
+<circle cx="162.563" cy="173.408" r="1.792"/>
+<circle cx="182.814" cy="173.945" r="1.254"/>
+<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="3" x1="57.208" y1="7.48" x2="57.208" y2="242.957"/>
+<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="3" x1="191.272" y1="7.48" x2="191.272" y2="242.957"/>
+</svg>

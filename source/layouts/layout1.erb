@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Use the title from a page's frontmatter if it has one -->
+    <title><%= current_page.data.title || "Light&Dark Studio" %></title>
+    <%= stylesheet_link_tag "layout1" %>
+    <%= stylesheet_link_tag "bootstrap" %>
+    <%= stylesheet_link_tag "bootstrap-theme" %>
+    <%= javascript_include_tag "jquery.min" %>
+    <%= javascript_include_tag "bootstrap" %>
+    <%= javascript_include_tag "site" %>
+    <link rel="shortcut icon" type="image/png" href="/images/favicon.png"/>
+  </head>
+
+  <body>
+   <div class="menu-container">
+    <div class="row">
+     <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2 ">
+       <a class="menu-elements" href="/views/skills.html">S K I L L S</a>
+     </div>
+     <div class="col-sm-12 col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1 col-xl-2 col-xl-offset-1">
+       <a class="menu-elements" href="/views/works.html">W O R K S</a>
+     </div>
+     <div class="home-button col-sm-12 col-md-2 col-lg-2 col-xl-2">
+       <a class="menu-elements-home" href="/index.html">H O M E</a>
+     </div>
+     <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2">
+       <a href="../index.html"><img id="menu-logo" src="../images/lightdark-menu.svg"></a>
+     </div>
+     <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2">
+       <a class="menu-elements2" href="/views/about.html">A B O U T</a>
+     </div>
+     <div class="col-sm-12 col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1 col-xl-2 col-xl-offset-1">
+       <a class="menu-elements2" href="/views/contact.html">C O N T A C T</a>
+     </div>
+    </div>
+   </div>
+    <%= yield %>
+    <div class="footer">
+      <div class="row">
+        <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+          <p class="footer-text-titles">Some title1</p>
+          <p class="footer-text">Here I write some text<br>And here some other text<br>And here again some more</p>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+          <p class="footer-text-titles">Some title2</p>
+          <p class="footer-text">Here I write some text<br>And here some other text<br>And here again some more</p>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+          <p class="footer-text-titles">Some title3</p>
+          <p class="footer-text">Here I write some text<br>And here some other text<br>And here again some more</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+
+/*body {
+	position: relative;
+	background-image: url(../images/stripespattern.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+/*.intro-container {
+	background-image: url(../images/r.svg); 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+.separator {
+	margin: 25px 30px;
+	width: auto;
+	height: 4px;
+}
+.logo {
+	width: 100%;
+	padding: 20px 130px;
+	height: 500px; 
+	z-index: 1005;
+}
+.rs-imagesjpg {
+	width: 100%;
+}
+.intro-text {
+	background-color: #ffffffbd;
+	text-align: justify;
+	margin-right: 10%;
+	margin-left: 10%;
+	padding: 50px 0px;
+    font-weight: 300;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    z-index: 1010;
+}

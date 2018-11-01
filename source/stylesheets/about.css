@@ -1,0 +1,117 @@
+body {
+	overflow-x: hidden;
+}
+.quote {
+	font-size: 45px;
+	font-weight: 400;
+	color: black;
+	text-align: center;
+	margin-top: 250px;
+	margin-bottom: 200px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.quote-container {
+	background-image: url(../images/stripespattern.svg);
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+.no-margin {
+	margin:none !important;
+}
+.quote em {
+	font-size: 40px;
+	font-weight: 100;
+}
+.members {
+	width: 100%;	
+}
+#memberx {
+	background-color: black;
+}
+#membery {
+	background-color: #9d9d9c;
+}
+#memberz {
+	background-color: white;
+}
+#memberx:hover {
+	background-image: linear-gradient(45deg, rgb(0, 255, 196), rgb(228, 0, 255));
+}
+#membery:hover {
+	background-color: #2f2f2f;
+}
+#memberz:hover {
+	background-image: linear-gradient(45deg, rgb(255, 0, 0), rgb(204, 0, 255));
+}
+.no-padding {
+	padding: 0px !important;
+}
+.about-us-container {
+	background: white;
+	text-align: justify;
+}
+.about-us {
+	font-weight: 300;
+	margin: 7% 7%;
+	font-size: 25px;
+	letter-spacing: 0.5px;
+}
+.more-info-x {
+	height: auto;
+	width: 20.5%;
+	border-right: 2px solid black ;
+	position: absolute;
+	padding: 20px 30px;
+	text-align: center;
+	box-shadow: 0px 3px 10px #00000045;
+	background-color: #ffffffb8;
+	display: none;
+}
+.more-info-y {
+	height: auto;
+	width: 20.5%;
+	padding: 20px 30px;
+	border-right: 2px solid #9d9d9c ;
+	position: absolute;
+	margin-left: 33.3%;
+	text-align: center;
+	box-shadow: 0px 3px 10px #00000045;
+	background-color: #ffffffb8;
+	display: none;
+}
+.more-info-z {
+	height: auto;
+	width: 20.5%;
+	padding: 20px 30px;
+	border-right: 2px solid white;
+	position: absolute;
+	margin-left: 66.6%;
+	text-align: center;
+	box-shadow: 0px 3px 10px #00000045;
+	background-color: #ffffffb8;
+	display: none;
+}
+.more-info {
+	font-size: 20px;
+	font-weight: 200;
+	letter-spacing: 2px;
+}
+.more-info p em {
+	font-weight: 1000;
+	font-style: normal;
+	line-height: 200%;
+}
+
+
+
+
+
+
+
+
+
+
+

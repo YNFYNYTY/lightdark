@@ -1,0 +1,66 @@
+body {
+  background-image: url("../images/stripespattern.svg");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  font-weight:100 ;
+}
+.home-text {
+	background-color: #292929;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	letter-spacing: 3px;
+	padding: 20px 50px;
+	font-size: 60px;
+	color:white;
+	font-weight: 100;
+	margin:0px;
+}
+.home-text em {
+	font-style: normal;
+	color: gold;
+}
+@media (max-width: 1000px ) {
+.home-text {
+	font-size: 40px;
+}
+}
+#lightdark-logo {
+  position: relative;
+  text-align:center;
+  width: 100%;
+  max-width: 600px;
+  margin-top: 180px;
+  margin-bottom: 100px;
+  padding: 30px;
+  z-index: 1000;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;	
+}
+.logo-container {
+  background-image: url(../images/studio-back.svg);
+  height: 800px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#lightdark-logo-over {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  margin-top: 180px;
+  margin-bottom: 100px;
+  padding: 30px;
+  z-index: 1001;
+}
+.index-squarebox {
+  background-color:#3c3c3b;
+  height: 300px;
+}
+.index-squarebox2 {
+  background-color:white;
+  height: 300px;
+}
