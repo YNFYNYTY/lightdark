@@ -1,0 +1,93 @@
+/*body {
+  background-image: url("../images/cycling-back-pattern.svg");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}*/
+.BE-container {
+  background-image: url(../images/cycling_kit_BASQUE-EDITION.jpg);
+  min-height: 750px; 
+  background-attachment: fixed;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.blues-container {
+  background-color: #dbf0ff;
+  background-image: url(../images/BLUES_skinsuit_halffront.jpg);
+  min-height: 750px; 
+  background-attachment: fixed;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.text {
+	vertical-align: baseline;
+	text-align: center;
+}
+.big-separator {
+	opacity: 0.5;
+	background-color: black;
+	height: 1px;
+	/*-webkit-box-shadow:;
+	-moz-box-shadow:;
+	box-shadow: 5px 10px 8px 10px #888888;*/
+    /*background-repeat: no-repeat;
+    background-size: cover;
+	background-color: transparent;
+	stroke-opacity: 0;*/
+}
+.be-title { 
+	font-size: 60px;
+	font-weight: 100;
+	background-color: #ffffffcf;
+	margin: 100px 0px;
+	padding: 40px 5px;
+	color:black;
+	letter-spacing: 5px;
+	border-right: 2px solid red;
+	border-left: 2px dotted green;
+}
+.blues-title {
+    font-size: 60px;
+    font-weight: 100;
+    background-color: #dbf0ff7a;
+    margin: 100px 0px;
+    padding: 40px 5px;
+    color: black;
+    letter-spacing: 15px;
+    border-right: 2px solid #00a0e4;
+    border-left: 2px solid #1b1689;
+}
+.p-be {
+	padding: 40px 15px;
+	margin-bottom: 30px;
+	background-color: #ffffffcf;
+	font-size: 18px;
+	text-align: justify;
+	line-height: 2;
+	font-weight: 300;
+	color: black;
+	letter-spacing: 1.5px;
+
+}
+.p-blues {
+    padding: 40px 15px;
+    margin-bottom: 30px;
+	background-color: #dbf0ff7a;
+	font-size: 18px;
+	text-align: justify;
+	line-height: 2;
+	font-weight: 300;
+	color: black;
+	letter-spacing: 1.5px;
+}
+a {
+	font-weight:1000;
+	color: black;
+}
+a:hover {
+	font-weight:1000;
+	text-decoration: none;
+	color: gray;
+}
