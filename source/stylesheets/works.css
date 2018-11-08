@@ -1,5 +1,9 @@
 .works-container {
-
+	
+}
+.separator {
+	height: 5px;
+	background-color: white;
 }
 .text {
     position: absolute;

@@ -3,7 +3,7 @@ h2 {
     padding: 20px 10px;
 	font-size: 35px;
 	letter-spacing: 5px;
-	color: black;
+	color: gray;
 	font-weight: 100;
 }
 h3 {
@@ -18,7 +18,7 @@ p {
 	font-weight: 500;
 	color: black;
 }
-.container {
+.skill {
 	margin-top: 100px;
 }
 .icon {
@@ -31,4 +31,8 @@ p {
 	min-height: 180px;
 	text-align: center;
 	margin: -40px 50px;
+}
+.container {
+	width: auto;
+	margin-bottom: 150px;
 }

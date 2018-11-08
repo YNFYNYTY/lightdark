@@ -1,5 +1,5 @@
   * {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Futura, sans-serif;
   cursor :crosshair;
 }
 .row {
@@ -26,14 +26,15 @@
   z-index: 1010;
 }
 .menu-elements {
+  font-weight: 100;
   font-size: 22px;
-  padding: 0px 20px;
+  padding: 0px 10px;
   color: white ;
 }
 .menu-elements2 {
   font-size: 22px;
-  font-weight: 200;
-  padding: 0px 20px;
+  font-weight: 500;
+  padding: 0px 10px;
   color: black ;
 }
 .menu-elements-home {
@@ -104,6 +105,10 @@
   border-bottom: none;
   padding-bottom: 0px;
   color: white;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
 }
 #menu-logo {
   display: none;
@@ -117,24 +122,32 @@
 }
 }
 .footer {
-  margin-top: 100px;
   padding: 30px 10px;
   background-color: #525252;
 }
 .footer-text {
-  color: #b7b7b7;
+  color: #e6e6e6;
+  letter-spacing: 2px;
   text-align: center;
+  line-height: 30px;
   font-size: 20px;
   font-weight: 100;
 }
 .footer-text-titles {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-size: 30px;
   color:black;
   letter-spacing: 1px;
   font-weight: 1000;
   text-align: center;
 }
-
+.footer-link {
+  text-decoration: none;
+  color: inherit;
+}
+.footer-link:hover {
+  text-decoration: none;
+  color: white;
+}
 
 
