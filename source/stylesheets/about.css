@@ -2,8 +2,8 @@ body {
 	overflow-x: hidden;
 }
 .quote {
-	font-size: 45px;
-	font-weight: 400;
+	font-size: 60px;
+	font-weight: 200;
 	color: black;
 	text-align: center;
 	margin-top: 250px;
@@ -22,8 +22,8 @@ body {
 	margin:none !important;
 }
 .quote em {
-	font-size: 40px;
-	font-weight: 100;
+	font-size: 30px;
+	font-weight: 600;
 }
 .members {
 	width: 100%;	
@@ -104,8 +104,23 @@ body {
 	font-style: normal;
 	line-height: 200%;
 }
-
-
+.link {
+	font-weight:500 !important;
+	color: black;
+}
+.link:hover, .link:active {
+	font-weight:500 !important;
+	color: gray;
+}
+@media (max-width: 992px ) {
+.more-info-x, .more-info-y, .more-info-z{
+	position: relative !important;
+	margin-left: 0%;
+	width: 100%;
+	margin: none;
+	box-shadow: none;
+}
+}
 
 
 

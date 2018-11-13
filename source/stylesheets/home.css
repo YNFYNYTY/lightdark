@@ -1,13 +1,12 @@
 body {
-  background-image: url("../images/stripespattern.svg");
+  background-image: linear-gradient(#ffff0085,#ff00007d);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   text-align: center;
   font-weight:100 ;
 }
 .home-text {
 	background-color: #292929;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	letter-spacing: 3px;
 	padding: 20px 50px;
 	font-size: 60px;
@@ -19,16 +18,11 @@ body {
 	font-style: normal;
 	color: gold;
 }
-@media (max-width: 1000px ) {
-.home-text {
-	font-size: 40px;
-}
-}
 #lightdark-logo {
   position: relative;
   text-align:center;
   width: 100%;
-  max-width: 600px;
+  max-width: 700px;
   margin-top: 180px;
   margin-bottom: 100px;
   padding: 30px;
@@ -56,11 +50,53 @@ body {
   padding: 30px;
   z-index: 1001;
 }
-.index-squarebox {
-  background-color:#3c3c3b;
-  height: 300px;
+.questions-block {
+  background-color: white;
 }
-.index-squarebox2 {
-  background-color:white;
-  height: 300px;
+.containers {
+  display: table;
+  padding: 0px !important;
+  min-height: 300px;
+} 
+.questions-text {
+  padding: 0px 10px;
+  display: table-cell;
+  vertical-align: middle;
+  background-color: #80808080;
+  margin: 0px !important;
+  font-size: 60px;
+  font-weight: 500;
 }
+.list {
+  font-size: 20px;
+  font-weight: 500;
+}
+.answer-text {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 10px 30px;
+}
+h4 {
+  display: table-cell;
+  text-align: center;
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: 3px;
+  line-height: 30px;
+}
+@media (max-width: 1000px ) {
+.home-text {
+  font-size: 40px;
+}
+.questions-text {
+  font-size: 50px;
+}
+}
+@media (max-width: 768px ) {
+.containers {
+  width: 100%;
+}
+}
+
+
+

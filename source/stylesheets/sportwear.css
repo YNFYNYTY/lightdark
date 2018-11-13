@@ -1,9 +1,3 @@
-/*body {
-  background-image: url("../images/cycling-back-pattern.svg");
-  background-position: center;
-  background-size: cover;
-  text-align: center;
-}*/
 .BE-container {
   background-image: url(../images/cycling_kit_BASQUE-EDITION.jpg);
   min-height: 750px; 
@@ -157,7 +151,7 @@
 	color: black;
 }
 .link:hover {
-	text-decoration: none;
+  text-decoration: line-through;
 	color: gray;
 }
 @media (max-width: 768px ) {

@@ -13,6 +13,7 @@ $(window).scroll(function() {
 //     	minDisplayTime: 1000,
 //     });
 // });
+
 $(function(){ 
 $("#memberx").click(function(){
 $(".more-info-x").slideToggle();

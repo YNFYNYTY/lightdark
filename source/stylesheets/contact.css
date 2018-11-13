@@ -1,110 +1,130 @@
-
-
-
-
-
-
-
-
-
-
-
-
+.handshake {
+  background-image: url(/images/handshake.svg);
+  min-height: 800px; 
+  background-attachment: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -100px;
+  background-color: #dadada;
+}
+.contact-title {
+  color: white;
+  text-align: center;
+  font-size: 70px;
+  font-weight: 200;
+  padding-top: 400px;
+}
+.map {
+  position: relative;
+  background-image: url(/images/map.svg);
+  min-height: 400px; 
+  background-attachment: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.separator {
+  width: 100%;
+  height: 5px;
+  background-color: #f6f6f6;
+}
+.map-text {
+  position: absolute;
+  width: 100%;
+  font-size: 30px;
+  font-weight: 200;
+  color: black;
+  text-align: center;
+  padding: 20px 10px;
+  top: 35%
+}
 
 .field {
+  width: 100%;
   margin: 70px 0px;
 }
 label {
   font-size: 35px;
   font-weight: 100;
-  font-family: 'neue';
   display: block;
   text-align: center;
   margin-bottom: 25px;
-  color: rgb(203, 203, 203);
-  border-radius: 0px;
+  color: #4a4a4a;
+  
 }
 .label-second-color {
   color: rgba(255, 184, 0, 0.8);
 }
 input {
-  line-height: 1.4;
   letter-spacing: 2px;
   font-weight: 100;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: #dadada;
   border: none;
   height: 70px;
-  font-family: 'neue';
-  color: white;
-  width: 80%;
-  font-size: 18px;
-  padding: 5px;
-  border-radius: 0px;
-}
-input:focus {
-   outline: none !important;
-   border: solid 1px rgb(255, 184, 0);
-   background-color: rgba(255, 156, 0, 0.21);
-   color: white;
-   width: 100%;
-}
-textarea:focus {
-  outline: none !important;
   width: 100%;
-   border: solid 1px rgb(255, 184, 0);
-   background-color: rgba(255, 156, 0, 0.21);
+  color: black;
+  font-size: 20px;
+  padding: 15px;
+}
+input:focus, textarea:focus {
+   outline: none !important;
+   border: dotted 1px black;
+   background-color: #e6e6e636;
+   color: black;
+   width: 100%;
 }
 textarea {
   line-height: 1.4;
   letter-spacing: 2px;
   font-weight: 100;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: #dadada;
   border:none;
-  padding: 8px;
-  color: white;
-  font-family: 'neue';
-  width: 80%;
+  padding: 15px;
+  color: black;
+  width: 100%;
   height: 200px;
-  font-size: 18px;
+  font-size: 20px;
   border-radius: 0px;
 }
 ::-webkit-input-placeholder {
-    color: rgba(255, 156, 0, 0.3);
+    color: white;
     text-align: center;
 }
 ::-moz-placeholder {
-    color: rgba(255, 156, 0, 0.3);
+    color: white;
     text-align: center;
 }
 ::-moz-placeholder {
-    color: rgba(255, 156, 0, 0.3);
+    color: white;
     text-align: center;
 }
 ::-ms-input-placeholder {
-    color: rgba(255, 156, 0, 0.3);
+    color: white;
     text-align: center;
 }
 #enviar {
-  font-family: 'neue';
-  letter-spacing: 5px;
   display: inline-block;
-  font-size: 40px;
-  height: 70px;
-  padding: 5px 3px;
-  background-color: rgba(0, 0, 0, 0.4);
-  color: rgba(255, 184, 0, 0.8);
-  width: 80%;
+  font-weight: 100;
+  font-size: 35px;
+  padding: 15px;
+  background-color: #000000;
+  color: #cacaca;
+  width: 100%;
   text-align: center;
   border-radius: 0px;
   border: none;
+  /*-webkit-transform: skew(-45deg);
+  -moz-transform: skew(-45deg);
+  -o-transform: skew(-45deg);
+  transform: skew(-45deg);*/
 }
 #enviar:hover, #enviar:focus {
-  background-color: rgba(255, 156, 0, 0.21);
+  background-color: #3e3e3e;
   color: white;
-  border: solid 1px rgb(255, 184, 0);
   width: 100%;
-  cursor: pointer;
 }
 .success {
   padding: 20px;
