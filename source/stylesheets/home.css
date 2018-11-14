@@ -1,7 +1,4 @@
 body {
-  background-image: linear-gradient(#ffff0085,#ff00007d);
-  background-position: center;
-  background-size: contain;
   text-align: center;
   font-weight:100 ;
 }
@@ -39,6 +36,13 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-animation: color 5s infinite;
+  -moz-animation: color 5s infinite;
+  animation: color 5s infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  transform: translateZ(0);
 }
 #lightdark-logo-over {
   position: absolute;
@@ -76,13 +80,29 @@ body {
   vertical-align: middle;
   padding: 10px 30px;
 }
+.small-icon {
+  position: absolute;
+  margin-top: 220px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+}
 h4 {
   display: table-cell;
   text-align: center;
   font-weight: 400;
-  font-size: 25px;
-  letter-spacing: 3px;
+  font-size: 20px;
+  letter-spacing: 1.5px;
   line-height: 30px;
+}
+.more-info{
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
+}
+.more-info:hover {
+  text-decoration: line-through;
+  color: gray;
 }
 @media (max-width: 1000px ) {
 .home-text {
@@ -98,5 +118,26 @@ h4 {
 }
 }
 
-
+@-webkit-keyframes color {
+  0% {
+  background-color: white;
+  }
+  50% {
+  background-color: yellow;
+  }
+  100% {
+  background-color: orange;
+  }
+}
+@keyframes color {
+ 0% {
+  background-color: white;
+  }
+  50% {
+  background-color: yellow;
+  }
+  100% {
+  background-color: white;
+  }
+}
 
