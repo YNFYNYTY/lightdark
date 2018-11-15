@@ -119,7 +119,14 @@ h4 {
   width: 100%;
 }
 }
-
+@media (max-width: 550px ) {
+.small-icon {
+  display: none;
+}
+.logo-container {
+  height: 600px;
+}
+}
 @-webkit-keyframes color {
   0% {
   background-color: #ffffff80;

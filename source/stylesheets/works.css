@@ -81,7 +81,6 @@ h1:hover {
 	border-radius: 50px;
 	border: 10px solid white;
 	background-color: #ffffff24;
-	/*border-right-color:transparent;*/
 	border-top-color: transparent;
 	border-bottom-color: transparent;
 	-webkit-transition: 0.4s;
@@ -100,12 +99,14 @@ h1:hover {
 	filter: grayscale(0%);
 }
 
-/*ROGER SPORT STYLES BELOW*/
+/* FINISH LOGO COLLECTION STYLES */
 
-.rs_background {
-	background-image: url(../images/rs_background.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
+@media (max-width: 600px ) {
+h1 {
+   font-size: 35px;
+}
+h2 { 
+	text-align: center;
+	line-height: 25px;
+}
 }

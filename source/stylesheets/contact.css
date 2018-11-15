@@ -40,7 +40,6 @@
   padding: 20px 10px;
   top: 35%
 }
-
 .field {
   width: 100%;
   margin: 70px 0px;
@@ -116,10 +115,6 @@ textarea {
   text-align: center;
   border-radius: 0px;
   border: none;
-  /*-webkit-transform: skew(-45deg);
-  -moz-transform: skew(-45deg);
-  -o-transform: skew(-45deg);
-  transform: skew(-45deg);*/
 }
 #enviar:hover, #enviar:focus {
   background-color: #3e3e3e;
@@ -144,3 +139,13 @@ input:-webkit-autofill {
   background-color: transparent;
     -webkit-box-shadow: 0 0 0 1000px white inset;
 }
+@media (max-width: 500px ) {
+.contact-title{
+  font-size: 50px;
+}
+.map-text {
+  padding: 45px 10px;
+  font-size: 25px;
+}
+}
+
