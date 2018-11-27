@@ -9,8 +9,8 @@
             echo "Oops! There was a problem with your submission. Please complete the form and try again.";
             exit;
         }
-        $recipient = "rogerbrizt@gmail.com";
-        $subject = "LIGHT&DARK STUDIO $name";
+        $recipient = "studiolightdark@gmail.com";
+        $subject = "LightDark $name";
         $email_content = "Name: $name\n";
         $email_content .= "Email: $email\n\n";
         $email_content .= "Message:\n$message\n";
@@ -28,3 +28,5 @@
         echo "Ha ocurrido un problema con el envío, por favor inténtelo de nuevo";
     }
 ?>
+
+
