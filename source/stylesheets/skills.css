@@ -16,6 +16,7 @@ p {
 	font-size: 18px;
 	letter-spacing: 1px;
 	font-weight: 500;
+	line-height: 30px;
 	color: black;
 }
 .skill {
@@ -28,7 +29,7 @@ p {
 	padding: 50px;
 }
 .text {
-	min-height: 180px;
+	min-height: 250px;
 	text-align: center;
 	margin: -40px 20px;
 }
@@ -40,5 +41,12 @@ p {
 .icon {
 	max-height: 300px;
 	padding: 50px 10px;
+}
+.text p{
+   text-align: justify;
+}
+.text {
+	margin-right: 5px;
+	margin-left: 5px;
 }
 }

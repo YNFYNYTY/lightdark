@@ -1,6 +1,7 @@
 .BE-container {
+  padding-top: 50px;
   background-image: url(../images/cycling_kit_BASQUE-EDITION.jpg);
-  min-height: 750px; 
+  min-height: 800px; 
   background-attachment: fixed;
   background-position: left;
   background-repeat: no-repeat;
@@ -14,7 +15,7 @@
   background-position: right;
   background-repeat: no-repeat;
   background-size: contain;
-}
+}	
 .s-container {
   background-color: white;
   background-image: url(../images/s-pad.jpg);

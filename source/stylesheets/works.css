@@ -90,7 +90,9 @@ h1:hover {
 } 
 
 /*LOGO COLLECTION STYLES BELOW*/
-
+.logo-container {
+	margin: 100px 0px;
+}
 .logo-svg {
 	width: 100%;
 	filter: grayscale(100%) ;

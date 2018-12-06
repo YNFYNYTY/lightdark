@@ -5,7 +5,7 @@ body {
 .home-text {
 	background-color: #292929;
 	letter-spacing: 3px;
-	padding: 20px 50px;
+	padding: 50px;
 	font-size: 60px;
 	color:white;
 	font-weight: 100;
@@ -84,7 +84,7 @@ body {
 }
 .small-icon {
   position: absolute;
-  margin-top: 220px;
+  margin-top: 210px;
   left: 50%;
   transform: translateX(-50%);
   width: 150px;
