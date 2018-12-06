@@ -16,7 +16,7 @@
 .menu-container {
   top: 0px;
   width:100%;
-  background-color:#0000003d;
+  background-color:rgba(0, 0, 0, 0.24);
   position:fixed;
   display:inline block;
   padding: 30px;
@@ -60,8 +60,8 @@
   -webkit-transition: 0.7s;
   -moz-transition: 0.7s;
   -o-transition: 0.7s;
-  -webkit-filter: drop-shadow(0px 3px 3px #3c3c3b66); /* Safari */
-  filter: drop-shadow(0px 3px 3px #3c3c3b66);
+  -webkit-filter: drop-shadow(0px 3px 3px rgba(60, 60, 59, 0.4)); /* Safari */
+  filter: drop-shadow(0px 3px 3px rgba(60, 60, 59, 0.4));
   transition: 0.7s; 
   opacity: 1;
   visibility: visible;
@@ -100,7 +100,7 @@
 }
 @media ( max-width: 991px ) {
 .menu-container {
-  background-color: #0000009c; 
+  background-color: rgba(0, 0, 0, 0.61); 
 }
 .menu-elements, .menu-elements2, .menu-elements-home {
   font-weight: 100;

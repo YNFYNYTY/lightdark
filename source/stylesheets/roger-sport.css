@@ -17,14 +17,14 @@
 	width: 100%;
 }
 .intro-text {
-	background-color: #ffffffbd;
+	background-color: rgba(255, 255, 255, 0.82);
 	text-align: justify;
 	margin-right: 10%;
 	margin-left: 10%;
 	padding: 50px 0px;
     font-weight: 300;
-    font-size: 22px;
-    line-height: 35px;
+    font-size: 25px;
+    line-height: 38px;
     letter-spacing: 0.5px;
     z-index: 1010;
 }

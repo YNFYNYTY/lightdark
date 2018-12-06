@@ -54,7 +54,7 @@
 .be-title { 
 	font-size: 60px;
 	font-weight: 100;
-	background-color: #ffffffcf;
+	background-color: rgba(255, 255, 255, 0.8);
 	margin: 100px 0px;
 	padding: 40px 5px;
 	color:black;
@@ -65,18 +65,18 @@
 .blues-title {
     font-size: 60px;
     font-weight: 100;
-    background-color: #dbf0ff7a;
+    background-color: rgba(219, 240, 255, 0.5);
     margin: 100px 0px;
     padding: 40px 5px;
     color: black;
     letter-spacing: 15px;
-    border-right: 2px solid #00a0e4;
-    border-left: 2px solid #1b1689;
+    border-right: 2px solid rgb(0, 160, 228);
+    border-left: 2px solid rgb(27, 22, 137);
 }
 .s-title {
     font-size: 60px;
     font-weight: 100;
-    background-color: #ffffff4f;
+    background-color: rgba(255, 255, 255, 0.5);
     margin: 100px 0px;
     padding: 40px 5px;
     color: black;
@@ -87,8 +87,8 @@
 .p-be {
 	padding: 40px 15px;
 	margin-bottom: 30px;
-	background-color: #ffffffcf;
-	font-size: 18px;
+	background-color: rgba(255, 255, 255, 0.8);
+	font-size: 22px;
 	text-align: justify;
 	line-height: 2;
 	font-weight: 300;
@@ -99,8 +99,8 @@
 .p-blues {
     padding: 40px 15px;
     margin-bottom: 30px;
-	background-color: #dbf0ff7a;
-	font-size: 18px;
+	background-color: rgba(219, 240, 255, 0.5);
+	font-size: 22px;
 	text-align: justify;
 	line-height: 2;
 	font-weight: 300;
@@ -110,19 +110,8 @@
 .p-s {
     padding: 40px 15px;
     margin-bottom: 30px;
-	background-color: #ffffff4f;
-	font-size: 18px;
-	text-align: justify;
-	line-height: 2;
-	font-weight: 300;
-	color: black;
-	letter-spacing: 1.5px;
-}
-.p-s2 {
-    padding: 40px 15px;
-    margin-bottom: 30px;
-	background-color: #ffffff4f;
-	font-size: 18px;
+	background-color: rgba(255, 255, 255, 0.8);
+	font-size: 22px;
 	text-align: justify;
 	line-height: 2;
 	font-weight: 300;
@@ -140,7 +129,7 @@
 .s-type-dark {
 	margin-right: 0px !important;
 	font-size: 40px;
-	color:#252525;
+	color:rgb(37, 37, 37);
 }
 .s-type-light {
 	margin-right: 0px !important;
@@ -152,8 +141,8 @@
 	color: black;
 }
 .link:hover {
-  text-decoration: line-through;
-	color: gray;
+  text-decoration: underline;
+  color: gray;
 }
 @media (max-width: 768px ) {
 .s-type-dark, .s-type-light {
