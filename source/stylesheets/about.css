@@ -106,11 +106,11 @@ body {
 	line-height: 200%;
 }
 .link {
-	font-weight:500 !important;
+	font-weight:600 !important;
 	color: black;
 }
 .link:hover, .link:active {
-	font-weight:500 !important;
+	font-weight:600 !important;
 	color: rgb(199, 178, 0);
 }
 @media (max-width: 992px ) {

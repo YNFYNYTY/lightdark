@@ -1,5 +1,21 @@
+@font-face {
+    font-family: futura_font;
+    src: url(/fonts/futura_light.ttf);
+    font-weight: lighter;
+} 
+@font-face {
+    font-family: futura_font;
+    src: url(/fonts/futura_book.ttf);
+    font-weight: normal;
+} 
+@font-face {
+    font-family: futura_font;
+    src: url(/fonts/futura_medium.ttf);
+    font-weight: bold;
+} 
+
   * {
-  font-family: Futura, sans-serif;
+  font-family: futura_font, sans-serif;
 }
 .row {
   margin-left: 0px !important;
@@ -34,7 +50,7 @@
 }
 .menu-elements2 {
   font-size: 22px;
-  font-weight: 500;
+  font-weight: 600;
   padding: 0px 10px;
   color: black ;
   visibility: visible;
@@ -146,7 +162,7 @@
   font-size: 30px;
   color:black;
   letter-spacing: 1px;
-  font-weight: 1000;
+  font-weight: 700;
   text-align: center;
 }
 .footer-link {
