@@ -111,7 +111,7 @@ body {
 }
 .link:hover, .link:active {
 	font-weight:500 !important;
-	color: gray;
+	color: rgb(199, 178, 0);
 }
 @media (max-width: 992px ) {
 .more-info-x, .more-info-y, .more-info-z{

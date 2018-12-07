@@ -104,10 +104,11 @@ h4 {
 }
 .more-info:hover {
   text-decoration: underline;
-  color: gray;
+  color: rgb(199, 178, 0);
 }
 @media (max-width: 1000px ) {
 .home-text {
+  padding: 30px;
   font-size: 40px;
 }
 .questions-text {
@@ -118,13 +119,20 @@ h4 {
 .containers {
   width: 100%;
 }
+.logo-container {
+  background-attachment: scroll;
+  height: 650px;
+}
 }
 @media (max-width: 550px ) {
 .small-icon {
   display: none;
 }
 .logo-container {
-  height: 600px;
+  height: 500px;
+}
+.answer-text{
+  padding: 20px;
 }
 }
 @-webkit-keyframes color {

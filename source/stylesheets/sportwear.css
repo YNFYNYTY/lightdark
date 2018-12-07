@@ -142,16 +142,24 @@
 }
 .link:hover {
   text-decoration: underline;
-  color: gray;
+  color: rgb(199, 178, 0);
 }
 @media (max-width: 768px ) {
-.s-type-dark, .s-type-light {
-	font-size: 30px;
+.be-title, .blues-title, .s-title {
+  font-size: 55px;
 }
 .BE-container, .blues-container, .s-container, .s-container2, .s-container3 {
 	background-size: 800px;
 	min-height: 680px;
   background-attachment: scroll;
+}
+.s-kind {
+  display: none;
+}
+.p-be, .p-blues, .p-s {
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 28px;
 }
 }
 
