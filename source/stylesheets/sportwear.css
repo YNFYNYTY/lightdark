@@ -151,6 +151,7 @@
 .BE-container, .blues-container, .s-container, .s-container2, .s-container3 {
 	background-size: 800px;
 	min-height: 680px;
+  background-attachment: scroll;
 }
 }
 
