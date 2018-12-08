@@ -19,23 +19,27 @@
    <div class="menu-container">
     <div class="row">
      <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2 ">
-       <a class="menu-elements" href="/views/skills.html"><%= I18n.t(:skills) %></a>
+       <%= link_to I18n.t(:skills), '/views/skills.html', :class => 'menu-elements' %>
      </div>
      <div class="col-sm-12 col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1 col-xl-2 col-xl-offset-1">
-       <a class="menu-elements" href="/views/works.html"><%= I18n.t(:works) %></a>
+      <%= link_to I18n.t(:works), '/views/works.html', :class => 'menu-elements' %>
      </div>
      <div class="home-button col-sm-12 col-md-2 col-lg-2 col-xl-2">
-       <a class="menu-elements-home" href="/index.html">H O M E</a>
+      <%= link_to 'H O M E', '/index.html', :class => 'menu-elements' %>
      </div>
      <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2">
        <a href="../index.html"><img id="menu-logo" src="../images/lightdark-menu.svg"></a>
      </div>
      <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2">
-       <a class="menu-elements2" href="/views/about.html"><%= I18n.t(:about) %></a>
+      <%= link_to I18n.t(:about), '/views/about.html', :class => 'menu-elements2' %>
      </div>
      <div class="col-sm-12 col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1 col-xl-2 col-xl-offset-1">
-       <a class="menu-elements2" href="/views/contact.html"><%= I18n.t(:contact) %></a>
+      <%= link_to I18n.t(:contact), '/views/contact.html', :class => 'menu-elements2' %>
      </div>
+    </div>
+    <div class="language-container">
+      <%= link_to ' ES ', '/es/index.html', :class => 'language'%>
+      <%= link_to ' EN ', '/index.html', :class => 'language'%>
     </div>
    </div>
     <%= yield %>

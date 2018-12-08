@@ -44,20 +44,15 @@
 .menu-elements {
   font-weight: 100;
   font-size: 22px;
-  padding: 0px 10px;
+  padding: 0px;
   color: white ;
   visibility: visible;
 }
 .menu-elements2 {
   font-size: 22px;
   font-weight: 600;
-  padding: 0px 10px;
+  padding: 0px;
   color: black ;
-  visibility: visible;
-}
-.menu-elements-home {
-  font-size: 22px;
-  padding: 0px 20px;
   visibility: visible;
 }
 #menu-logo {
@@ -104,46 +99,6 @@
   -o-transition: 0.3s;
   transition: 0.3s;
 }
-@media (min-width: 990px) and (max-width: 1321px) {
-.menu-elements, .menu-elements2 {
-  font-size: 17px;
-  letter-spacing: 0px;
-  margin-left: -15px;
-}
-.menu-container {
-  padding: 24px 0px;
-}
-}
-@media ( max-width: 991px ) {
-.menu-container {
-  background-color: rgba(0, 0, 0, 0.61); 
-}
-.menu-elements, .menu-elements2, .menu-elements-home {
-  font-weight: 100;
-  color: white;
-}
-.menu-elements:hover, .menu-elements2:hover, .menu-elements-home:hover {
-  border-left: 5px solid white;
-  text-decoration: none;
-  border-bottom: none;
-  padding-bottom: 0px;
-  color: white;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-#menu-logo {
-  display: none;
-}
-.home-button {
-  display: block;
-  font-size: 22px;
-  padding: 0px 20px;
-  color: white ;
-  font-weight: 100;
-}
-}
 .footer {
   padding: 30px 10px;
   background-color: #525252;
@@ -173,5 +128,69 @@
   text-decoration: none;
   color: white;
 }
+.language-container {
+  position: absolute;
+  top: 90px;
+  right: 0px;
+  padding: 2px 5px;
+  background-color: black;
+}
+.language {
+  color: rgb(198, 198, 198);
+  font-size: 20px;
+}
+.language:hover {
+  text-decoration: overline;
+  color: rgb(199, 178, 0);
+}
 
-
+@media (min-width: 990px) and (max-width: 1321px) {
+.menu-elements, .menu-elements2 {
+  font-size: 17px;
+  letter-spacing: 0px;
+  margin-left: -15px;
+}
+.menu-container {
+  padding: 24px 0px;
+}
+.language-container {
+  top: 78px;
+}
+}
+@media ( max-width: 991px ) {
+.menu-container {
+  background-color: rgba(0, 0, 0, 0.61); 
+}
+.menu-elements, .menu-elements2 {
+  font-weight: 100;
+  padding: 0px 10px;
+  color: white;
+}
+.menu-elements:hover, .menu-elements2:hover {
+  border-left: 5px solid white;
+  text-decoration: none;
+  border-bottom: none;
+  padding-bottom: 0px;
+  color: white;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+#menu-logo {
+  display: none;
+}
+.home-button {
+  display: block;
+  font-size: 22px;
+  padding: 0px 20px;
+  color: white ;
+  font-weight: 100;
+}
+.language-container {
+  top: 90px;
+}
+.language {
+  font-size: 25px;
+}
+} 
