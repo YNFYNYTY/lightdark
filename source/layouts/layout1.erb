@@ -5,7 +5,6 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Use the title from a page's frontmatter if it has one -->
     <title><%= current_page.data.title || "Light&Dark Studio" %></title>
     <%= stylesheet_link_tag "layout1" %>
     <%= stylesheet_link_tag "bootstrap" %>
@@ -20,10 +19,10 @@
    <div class="menu-container">
     <div class="row">
      <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2 ">
-       <a class="menu-elements" href="/views/skills.html">S K I L L S</a>
+       <a class="menu-elements" href="/views/skills.html"><%= I18n.t(:skills) %></a>
      </div>
      <div class="col-sm-12 col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1 col-xl-2 col-xl-offset-1">
-       <a class="menu-elements" href="/views/works.html">W O R K S</a>
+       <a class="menu-elements" href="/views/works.html"><%= I18n.t(:works) %></a>
      </div>
      <div class="home-button col-sm-12 col-md-2 col-lg-2 col-xl-2">
        <a class="menu-elements-home" href="/index.html">H O M E</a>
@@ -32,10 +31,10 @@
        <a href="../index.html"><img id="menu-logo" src="../images/lightdark-menu.svg"></a>
      </div>
      <div class="col-sm-12 col-md-2 col-lg-2 col-xl-2">
-       <a class="menu-elements2" href="/views/about.html">A B O U T</a>
+       <a class="menu-elements2" href="/views/about.html"><%= I18n.t(:about) %></a>
      </div>
      <div class="col-sm-12 col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1 col-xl-2 col-xl-offset-1">
-       <a class="menu-elements2" href="/views/contact.html">C O N T A C T</a>
+       <a class="menu-elements2" href="/views/contact.html"><%= I18n.t(:contact) %></a>
      </div>
     </div>
    </div>
@@ -45,15 +44,15 @@
         <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
           <p class="footer-text-titles">LIGHTDARK STUDIO©</p>
           <p class="footer-text">
-          <a class="footer-link" href="/files/privacy.pdf">Privacy Policy</a><br>
-          <a class="footer-link" href="/views/jobs.html">Work with us</a></p>
+          <a class="footer-link" href="/files/privacy.pdf"><%= I18n.t(:policy) %></a><br>
+          <a class="footer-link" href="/views/jobs.html"><%= I18n.t(:wwu) %></a></p>
         </div>
         <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
           <p class="footer-text-titles">–</p>
           <p class="footer-text">
-          <a class="footer-link" href="/views/skills.html">Skills</a><br><a class="footer-link" href="/views/works.html">Works</a><br>
-          <a class="footer-link" href="/views/about.html">About</a><br>
-          <a class="footer-link" href="/views/contact.html">Contact</a></p>
+          <a class="footer-link" href="/views/skills.html"><%= I18n.t(:f_skills) %></a><br><a class="footer-link" href="/views/works.html"><%= I18n.t(:f_works) %></a><br>
+          <a class="footer-link" href="/views/about.html"><%= I18n.t(:f_about) %></a><br>
+          <a class="footer-link" href="/views/contact.html"><%= I18n.t(:f_contact) %></a></p>
         </div>
         <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
           <p class="footer-text-titles">SOCIAL</p>
