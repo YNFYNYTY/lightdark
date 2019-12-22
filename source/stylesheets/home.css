@@ -94,7 +94,7 @@ h4 {
 }
 @media (max-width: 1000px ) {
 .home-text {
-  padding: 30px;
+  padding: 30px 15px;
   font-size: 40px;
 }
 .questions-text {
@@ -119,6 +119,9 @@ h4 {
 }
 .answer-text{
   padding: 20px;
+}
+#lightdarklogo {
+  height: 200px;
 }
 }
 @media screen and (max-width: 1024px) {   
