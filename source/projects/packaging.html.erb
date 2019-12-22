@@ -5,7 +5,9 @@ layout: layout1
 <%= stylesheet_link_tag "packaging" %>
 <%= javascript_include_tag "jquery.zoom.js" %>
 
+
 <script>
+  if (screen.width > 1025) {
     $(document).ready(function(){
       $('#ex1').zoom();
       $('#ex2').zoom();
@@ -25,7 +27,8 @@ layout: layout1
       $('#ex16').zoom();
       $('#ex17').zoom();
       $('#ex18').zoom();
-    });
+    })
+  };
   </script>
 
 <div class="intro-container"></div>
