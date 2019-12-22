@@ -32,7 +32,7 @@
 .menu-container {
   top: 0px;
   width:100%;
-  background-color:rgba(0, 0, 0, 0.24);
+  background-color:rgba(0, 0, 0, 0.35);
   position:fixed;
   display:inline block;
   padding: 30px;
@@ -101,7 +101,7 @@
 }
 .footer {
   padding: 30px 10px;
-  background-color: #525252;
+  background-color: #52525282;
 }
 .footer-text {
   color: #e6e6e6;

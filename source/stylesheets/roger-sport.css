@@ -28,6 +28,12 @@
     letter-spacing: 0.5px;
     z-index: 1010;
 }
+a {
+	color:red;
+}
+a:hover {
+	color:black !important;
+}
 @media (max-width: 600px ) {
 .logo {
 	padding: 0px;
